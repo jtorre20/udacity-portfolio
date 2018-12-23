@@ -1,0 +1,49 @@
+/* Header section */
+
+header {
+  /* border: 1px solid; */
+  height: 150px;
+  /* border-bottom: 5px solid; */
+  /* position: absolute; */
+  /* left: 60px;
+  right: 70px; */
+}
+
+.Intro {
+  text-align: right;
+  float: right;
+  width: 70%;
+  position: relative;
+  right: 70px;
+}
+
+.logo {
+  /* border: 1px solid; */
+  float: left;
+  height: 70px;
+  width: 80px;
+  position: relative;
+  left: 60px;
+  top: 20px;
+}
+
+/* Body Content */
+
+.main {
+  position: relative;
+} 
+
+#topBorder {
+  border-top: 5px solid;
+  position: absolute;
+  width: 1010px;
+  position: absolute;
+  left: 60px;
+}
+
+.picture {
+  padding: 25px;
+  left: 40px; 
+  position: relative;
+}
+
