@@ -48,7 +48,8 @@ header {
   position: absolute;
   width: 1010px;
   position: absolute;
-  left: 60px;
+  left: 70px;
+  color: #7d97ad;
 }
 
 .picture {
@@ -59,11 +60,22 @@ header {
 }
 
 /* Body Content Featured Work */
+
+.featured-work {
+  position: absolute;
+  left: 60px;
+}
+
 .featured-work h2 {
   font-size: 45px;
   position: relative;
-  left: 70px;
   color: #7d97ad;
+  margin-bottom: 20px;
+}
+
+.projects h2 {
+  font-size: 30px;
+  text-align: center;
 }
 
 
