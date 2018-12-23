@@ -1,20 +1,30 @@
+body {
+  font-family: "Itim";
+}
+
 /* Header section */
 
 header {
-  /* border: 1px solid; */
   height: 150px;
-  /* border-bottom: 5px solid; */
-  /* position: absolute; */
-  /* left: 60px;
-  right: 70px; */
 }
 
-.Intro {
+#Intro {
   text-align: right;
   float: right;
   width: 70%;
   position: relative;
   right: 70px;
+  color: #2d3c49;
+}
+
+#Intro .name {
+  margin-bottom: 0;
+  font-size: 72px;
+}
+
+#Intro .title {
+  margin-top: 0;
+  font-size: 22px;
 }
 
 .logo {
@@ -27,7 +37,7 @@ header {
   top: 20px;
 }
 
-/* Body Content */
+/* Body Content Featured Post*/
 
 .main {
   position: relative;
@@ -45,5 +55,15 @@ header {
   padding: 25px;
   left: 40px; 
   position: relative;
+  margin: 10px 
 }
+
+/* Body Content Featured Work */
+.featured-work h2 {
+  font-size: 45px;
+  position: relative;
+  left: 70px;
+  color: #7d97ad;
+}
+
 
