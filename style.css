@@ -47,8 +47,7 @@ header {
   border-top: 5px solid;
   position: absolute;
   width: 1010px;
-  position: absolute;
-  left: 70px;
+  left: 60px;
   color: #7d97ad;
 }
 
@@ -56,26 +55,147 @@ header {
   padding: 25px;
   left: 40px; 
   position: relative;
-  margin: 10px 
+  margin: 10px; 
+  width: 1050px;
+  height: 500px;
 }
 
 /* Body Content Featured Work */
 
 .featured-work {
   position: absolute;
-  left: 60px;
 }
 
 .featured-work h2 {
   font-size: 45px;
   position: relative;
+  left: 40px;
   color: #7d97ad;
+  margin-top: 0px;
   margin-bottom: 20px;
 }
 
-.projects h2 {
-  font-size: 30px;
+.projects h3 {
+  font-size: 35px;
+  margin: 0;
+  display: block;
+  text-align: center;
+  color: #7d97ad;
+}
+
+.projects a {
+  display: block;
   text-align: center;
 }
 
+.projects img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 300px;
+} 
+
+/* Media Queries */
+
+@media only screen and (max-width: 1200px) {
+
+  header {
+    position: relative;
+  }
+
+  #Intro .name {
+    margin-bottom: 0;
+    font-size: 52px;
+  }
+  
+  #Intro .title {
+    margin-top: 0;
+    font-size: 22px;
+  }
+
+  /* Featured Post */
+
+  #topBorder {
+    border-top: 5px solid;
+    position: absolute;
+    width: 850px;
+    left: 70px;
+  }
+
+  .picture {
+    left: 40px; 
+    margin: 10px; 
+    width: 900px;
+    height: 400px;
+  }
+
+  /* Featured Work */
+
+  .featured-work h2 {
+    font-size: 35px;
+    left: 40px;
+  }
+
+  .projects img {
+    height: 150px;
+    width: 250px;
+  } 
+
+
+}
+
+@media only screen and (max-width: 991px) {
+
+  .logo {
+    left: 0px;
+  }
+
+  #Intro {
+    right: -30px;
+  }
+
+  #Intro .name {
+    font-size: 42px;
+    left: -50px;
+  }
+  
+  #Intro .title {
+    font-size: 22px;
+  }
+
+  /* Featured Post */
+  
+  #topBorder {
+    width: 740px;
+    left: 10px;
+  }
+
+  .picture {
+    left: -10px;
+    width: 775px;
+    height: 400px;
+  }
+
+  /* Featured Work */
+
+  .featured-work h2 {
+    font-size: 35px;
+    left: 20px;
+  }
+
+  .projects img {
+    height: 150px;
+    width: 200px;
+  } 
+
+  .projects h3 {
+    font-size: 22px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .container
+}
 
